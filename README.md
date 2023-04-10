@@ -1,6 +1,6 @@
 # nodeskilltest3
 
-#Prerequisites
+# Prerequisites
 Before you begin, ensure that you have the following installed on your local machine:
 
 Node.js
@@ -8,12 +8,12 @@ MongoDB
 
 
 
-#Install the dependencies:
+# Install the dependencies:
 
 npm install
 
 
-Start the server:
+# Start the server:
 
 npm start
 
@@ -22,7 +22,8 @@ The server should now be running on http://localhost:8000.
 
 Install Postman to test the apis
 
-#Create API:
+# Create API:
+
 http://localhost:8000/api/v1/products/create
 
 sample create request body: {
@@ -38,13 +39,13 @@ http://localhost:8000/api/v1/products/create   and use get API
 
 
 
-#Update Product quantity
+# Update Product quantity
 http://localhost:8000/api/v1/products/<productID>/update_quantity/?number=6
 
 
 
 
-#Delete Product
+# Delete Product
 http://localhost:8000/api/v1/products/delete/<productID>
 
 
