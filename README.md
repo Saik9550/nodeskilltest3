@@ -40,12 +40,12 @@ http://localhost:8000/api/v1/products/create   and use get API
 
 
 # Update Product quantity
-http://localhost:8000/api/v1/products/<productID>/update_quantity/?number=6
+http://localhost:8000/api/v1/products/{productID}/update_quantity/?number=6
 
 
 
 
 # Delete Product
-http://localhost:8000/api/v1/products/delete/<productID>
+http://localhost:8000/api/v1/products/delete/{productID}
 
 
