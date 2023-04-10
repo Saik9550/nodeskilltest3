@@ -36,8 +36,12 @@ set the headers for create Api as key Content-Type and value as application/json
 # get Products
 http://localhost:8000/api/v1/products/create   and use get API
 
+
+
 #Update Product quantity
 http://localhost:8000/api/v1/products/<productID>/update_quantity/?number=6
+
+
 
 
 #Delete Product
